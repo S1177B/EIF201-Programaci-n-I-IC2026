@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 #include "ejercicio 2.h"
 #include <iostream>
@@ -43,5 +44,22 @@ int main() {
     }
 
     cout << endl;
+=======
+#include "ejercicio 4.h"
+
+int main() {
+    int matriz[FILAS][COLS];
+
+    leerMatriz(matriz);
+    imprimirMatriz(matriz);
+
+    cout << endl;
+    sumaFilas(matriz);
+    sumaColumnas(matriz);
+
+    int diag = sumaDiagonal(matriz);
+    cout << "Suma de la diagonal principal: " << diag << endl;
+
+>>>>>>> 207f61199ddbec7bf2040dcd55cb8dc0cd036c19
     return 0;
 }
